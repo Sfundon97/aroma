@@ -1,145 +1,66 @@
+/* Basic styles */
 body {
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
-}
-img{
-height: 70%;
-width: 70%;
-}
-.navigation ul {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+a {
+  color: #333;
+  text-decoration: none;
 }
 
-.navigation  li.logo {
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 4px;
+a:hover {
+  color: #007bff;
 }
 
-#banner {
-  background-image: url("./images/tahoe.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  width: 100%;
-  height: 100%;
-
-}
-
-#banner .content h1 {
-  position: relative;
-  top: 2px;
-  width: 400px;
-  margin: 0 auto;
-  border: 3px solid white;
-  border-radius: 10px;
-
-}
-
-#main {
- text-align: center;
-  background-color: ;
- font-color: white;
-
-
-  padding: 40px;
-  width: 600px;
-  margin: 0 auto;
-  height: 400px;
-  overflow: scroll;
-}
-
-h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
-  text-align: center;
-}
-
-h2 {
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  text-align: center;
-  border: 1px dotted red;
-  padding: 20px 30px;
-  margin: 30px 20px;
-}
-
-h3 {
-  color: red;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
+h1, h2, h3 {
+  margin-bottom: 15px;
 }
 
 p {
-  color: grey;
-  font-size: 16px;
-  line-height: 48px;
-  padding: 10px 20px;
-  margin-top: 60px;
-
+  line-height: 1.5; /* Adjust line spacing for readability */
 }
 
-.pull-quote {
-width: 50%;
-margin: 0 auto;
+.navbar {
+  background-color: #222; /* Set navbar background color */
+  padding: 20px 0; /* Add padding for navbar content */
 }
 
-.byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
-  color: DarkGrey;
-  font-size: 14px;
-  font-weight: 200;
+.navbar-brand {
+  color: #fff; /* Set brand name color */
+  font-weight: bold; /* Make brand name stand out */
 }
 
-.share {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
+.navbar-nav li {
+  display: inline-block; /* Display nav items inline */
+  margin-right: 15px; /* Add spacing between nav items */
 }
 
-.share a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
-  padding: 14px;
-  margin: 10px;
+#footer {
+  background-color: #eee; /* Set footer background color */
+  padding: 20px;
+  text-align: center; /* Center footer content */
 }
 
-.share a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
+.footer1, .footer2 {
+  display: flex; /* Arrange footer content in rows */
+  justify-content: space-between; /* Space content evenly */
+  align-items: center; /* Align content vertically */
 }
-.donate{
-    visibility: hidden;
+
+.widget {
+  margin-bottom: 15px; /* Add spacing between widgets */
 }
-.about-section {
 
-  text-align: center;
-  background-color: #474e5d;
- color: white;
+.widget h3 {
+  margin-bottom: 10px; /* Add spacing below widget title */
+}
 
+.follow-me-icons {
+  display: flex; /* Arrange social media icons in a row */
+}
 
-  padding: 40px;
-  width: 600px;
-  margin: 0 auto;
-  height: 400px;
-  overflow: scroll;
-  }
+.follow-me-icons a {
+  margin-right: 10px; /* Add spacing between icons */
+}
